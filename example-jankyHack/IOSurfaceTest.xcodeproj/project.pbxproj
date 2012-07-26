@@ -212,7 +212,7 @@
 				E715D34E15C11448009EEE3C /* src */,
 			);
 			name = ofxIOSurface;
-			path = ../../../addons/ofxIOSurface;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		E715D34E15C11448009EEE3C /* src */ = {
