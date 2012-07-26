@@ -1,6 +1,6 @@
 # IOSurfaceTest
 
-Clone into addons/
+Clone into openFrameworks/apps/	
 
 This is a proof of concept to try to replace the built in video players with IOSurface backed buffers and textures.
 

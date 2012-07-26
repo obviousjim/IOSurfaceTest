@@ -24,11 +24,11 @@
 		E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424510CC5A17004149E2 /* Cocoa.framework */; };
 		E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424610CC5A17004149E2 /* IOKit.framework */; };
 		E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
-		E715D35115C1146E009EEE3C /* ofxIOSurfaceTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = E715D35015C1146E009EEE3C /* ofxIOSurfaceTest.mm */; };
-		E715D35515C114B8009EEE3C /* TaskWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E715D35415C114B8009EEE3C /* TaskWrapper.m */; };
-		E715D35915C117F1009EEE3C /* IOSurfaceCLI in Resources */ = {isa = PBXBuildFile; fileRef = E715D35715C117C5009EEE3C /* IOSurfaceCLI */; };
-		E715D35C15C118D3009EEE3C /* IOSurfaceMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = E715D35B15C118D3009EEE3C /* IOSurfaceMovieController.m */; };
 		E715D35F15C11E5D009EEE3C /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E715D35D15C11E48009EEE3C /* IOSurface.framework */; };
+		E715D38015C12EAA009EEE3C /* ofxIOSurfaceTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = E715D37F15C12EAA009EEE3C /* ofxIOSurfaceTest.mm */; };
+		E715D38815C12EB4009EEE3C /* IOSurfaceMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = E715D38415C12EB4009EEE3C /* IOSurfaceMovieController.m */; };
+		E715D38915C12EB4009EEE3C /* TaskWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E715D38615C12EB4009EEE3C /* TaskWrapper.m */; };
+		E715D38A15C12ECF009EEE3C /* IOSurfaceCLI in Resources */ = {isa = PBXBuildFile; fileRef = E715D38215C12EB4009EEE3C /* IOSurfaceCLI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,14 +83,14 @@
 		E4C2424610CC5A17004149E2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
-		E715D34F15C1145C009EEE3C /* ofxIOSurfaceTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxIOSurfaceTest.h; sourceTree = "<group>"; };
-		E715D35015C1146E009EEE3C /* ofxIOSurfaceTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxIOSurfaceTest.mm; sourceTree = "<group>"; };
-		E715D35315C114B8009EEE3C /* TaskWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskWrapper.h; sourceTree = "<group>"; };
-		E715D35415C114B8009EEE3C /* TaskWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskWrapper.m; sourceTree = "<group>"; };
-		E715D35715C117C5009EEE3C /* IOSurfaceCLI */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = IOSurfaceCLI; sourceTree = "<group>"; };
-		E715D35A15C118D3009EEE3C /* IOSurfaceMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSurfaceMovieController.h; sourceTree = "<group>"; };
-		E715D35B15C118D3009EEE3C /* IOSurfaceMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSurfaceMovieController.m; sourceTree = "<group>"; };
 		E715D35D15C11E48009EEE3C /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
+		E715D37E15C12EAA009EEE3C /* ofxIOSurfaceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxIOSurfaceTest.h; sourceTree = "<group>"; };
+		E715D37F15C12EAA009EEE3C /* ofxIOSurfaceTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxIOSurfaceTest.mm; sourceTree = "<group>"; };
+		E715D38215C12EB4009EEE3C /* IOSurfaceCLI */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = IOSurfaceCLI; sourceTree = "<group>"; };
+		E715D38315C12EB4009EEE3C /* IOSurfaceMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSurfaceMovieController.h; sourceTree = "<group>"; };
+		E715D38415C12EB4009EEE3C /* IOSurfaceMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSurfaceMovieController.m; sourceTree = "<group>"; };
+		E715D38515C12EB4009EEE3C /* TaskWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskWrapper.h; sourceTree = "<group>"; };
+		E715D38615C12EB4009EEE3C /* TaskWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskWrapper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +122,6 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
-				E715D34D15C11448009EEE3C /* ofxIOSurface */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -188,6 +187,9 @@
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				E715D38115C12EB4009EEE3C /* lib */,
+				E715D37E15C12EAA009EEE3C /* ofxIOSurfaceTest.h */,
+				E715D37F15C12EAA009EEE3C /* ofxIOSurfaceTest.mm */,
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* testApp.h */,
 				E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */,
@@ -204,44 +206,17 @@
 			name = openFrameworks;
 			sourceTree = "<group>";
 		};
-		E715D34D15C11448009EEE3C /* ofxIOSurface */ = {
+		E715D38115C12EB4009EEE3C /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				E715D35615C117C5009EEE3C /* bin */,
-				E715D35215C114B8009EEE3C /* lib */,
-				E715D34E15C11448009EEE3C /* src */,
-			);
-			name = ofxIOSurface;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		E715D34E15C11448009EEE3C /* src */ = {
-			isa = PBXGroup;
-			children = (
-				E715D34F15C1145C009EEE3C /* ofxIOSurfaceTest.h */,
-				E715D35015C1146E009EEE3C /* ofxIOSurfaceTest.mm */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		E715D35215C114B8009EEE3C /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				E715D35315C114B8009EEE3C /* TaskWrapper.h */,
-				E715D35415C114B8009EEE3C /* TaskWrapper.m */,
-				E715D35A15C118D3009EEE3C /* IOSurfaceMovieController.h */,
-				E715D35B15C118D3009EEE3C /* IOSurfaceMovieController.m */,
+				E715D38215C12EB4009EEE3C /* IOSurfaceCLI */,
+				E715D38315C12EB4009EEE3C /* IOSurfaceMovieController.h */,
+				E715D38415C12EB4009EEE3C /* IOSurfaceMovieController.m */,
+				E715D38515C12EB4009EEE3C /* TaskWrapper.h */,
+				E715D38615C12EB4009EEE3C /* TaskWrapper.m */,
 			);
 			path = lib;
-			sourceTree = "<group>";
-		};
-		E715D35615C117C5009EEE3C /* bin */ = {
-			isa = PBXGroup;
-			children = (
-				E715D35715C117C5009EEE3C /* IOSurfaceCLI */,
-			);
-			path = bin;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -312,7 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E715D35915C117F1009EEE3C /* IOSurfaceCLI in Resources */,
+				E715D38A15C12ECF009EEE3C /* IOSurfaceCLI in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,9 +316,9 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */,
-				E715D35115C1146E009EEE3C /* ofxIOSurfaceTest.mm in Sources */,
-				E715D35515C114B8009EEE3C /* TaskWrapper.m in Sources */,
-				E715D35C15C118D3009EEE3C /* IOSurfaceMovieController.m in Sources */,
+				E715D38015C12EAA009EEE3C /* ofxIOSurfaceTest.mm in Sources */,
+				E715D38815C12EB4009EEE3C /* IOSurfaceMovieController.m in Sources */,
+				E715D38915C12EB4009EEE3C /* TaskWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
