@@ -25,10 +25,10 @@
 		E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424610CC5A17004149E2 /* IOKit.framework */; };
 		E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E715D35F15C11E5D009EEE3C /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E715D35D15C11E48009EEE3C /* IOSurface.framework */; };
-		E715D38015C12EAA009EEE3C /* ofxIOSurfaceTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = E715D37F15C12EAA009EEE3C /* ofxIOSurfaceTest.mm */; };
-		E715D38815C12EB4009EEE3C /* IOSurfaceMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = E715D38415C12EB4009EEE3C /* IOSurfaceMovieController.m */; };
-		E715D38915C12EB4009EEE3C /* TaskWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E715D38615C12EB4009EEE3C /* TaskWrapper.m */; };
-		E715D38A15C12ECF009EEE3C /* IOSurfaceCLI in Resources */ = {isa = PBXBuildFile; fileRef = E715D38215C12EB4009EEE3C /* IOSurfaceCLI */; };
+		E738032915C13DCD008838F4 /* IOSurfaceCLI in Resources */ = {isa = PBXBuildFile; fileRef = E738032115C13DCD008838F4 /* IOSurfaceCLI */; };
+		E738032A15C13DCD008838F4 /* IOSurfaceMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = E738032315C13DCD008838F4 /* IOSurfaceMovieController.m */; };
+		E738032B15C13DCD008838F4 /* TaskWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E738032515C13DCD008838F4 /* TaskWrapper.m */; };
+		E738032C15C13DCD008838F4 /* ofxIOSurfaceTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = E738032815C13DCD008838F4 /* ofxIOSurfaceTest.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,13 +84,13 @@
 		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
 		E715D35D15C11E48009EEE3C /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
-		E715D37E15C12EAA009EEE3C /* ofxIOSurfaceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxIOSurfaceTest.h; sourceTree = "<group>"; };
-		E715D37F15C12EAA009EEE3C /* ofxIOSurfaceTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxIOSurfaceTest.mm; sourceTree = "<group>"; };
-		E715D38215C12EB4009EEE3C /* IOSurfaceCLI */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = IOSurfaceCLI; sourceTree = "<group>"; };
-		E715D38315C12EB4009EEE3C /* IOSurfaceMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSurfaceMovieController.h; sourceTree = "<group>"; };
-		E715D38415C12EB4009EEE3C /* IOSurfaceMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSurfaceMovieController.m; sourceTree = "<group>"; };
-		E715D38515C12EB4009EEE3C /* TaskWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskWrapper.h; sourceTree = "<group>"; };
-		E715D38615C12EB4009EEE3C /* TaskWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskWrapper.m; sourceTree = "<group>"; };
+		E738032115C13DCD008838F4 /* IOSurfaceCLI */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = IOSurfaceCLI; sourceTree = "<group>"; };
+		E738032215C13DCD008838F4 /* IOSurfaceMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSurfaceMovieController.h; sourceTree = "<group>"; };
+		E738032315C13DCD008838F4 /* IOSurfaceMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSurfaceMovieController.m; sourceTree = "<group>"; };
+		E738032415C13DCD008838F4 /* TaskWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskWrapper.h; sourceTree = "<group>"; };
+		E738032515C13DCD008838F4 /* TaskWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskWrapper.m; sourceTree = "<group>"; };
+		E738032715C13DCD008838F4 /* ofxIOSurfaceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxIOSurfaceTest.h; sourceTree = "<group>"; };
+		E738032815C13DCD008838F4 /* ofxIOSurfaceTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxIOSurfaceTest.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +176,7 @@
 			children = (
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E738031F15C13DCD008838F4 /* SharedCode */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
 				E4EEC9E9138DF44700A80321 /* openFrameworks */,
 				BB4B014C10F69532006C3DED /* addons */,
@@ -187,9 +188,6 @@
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				E715D38115C12EB4009EEE3C /* lib */,
-				E715D37E15C12EAA009EEE3C /* ofxIOSurfaceTest.h */,
-				E715D37F15C12EAA009EEE3C /* ofxIOSurfaceTest.mm */,
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* testApp.h */,
 				E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */,
@@ -206,17 +204,36 @@
 			name = openFrameworks;
 			sourceTree = "<group>";
 		};
-		E715D38115C12EB4009EEE3C /* lib */ = {
+		E738031F15C13DCD008838F4 /* SharedCode */ = {
 			isa = PBXGroup;
 			children = (
-				E715D38215C12EB4009EEE3C /* IOSurfaceCLI */,
-				E715D38315C12EB4009EEE3C /* IOSurfaceMovieController.h */,
-				E715D38415C12EB4009EEE3C /* IOSurfaceMovieController.m */,
-				E715D38515C12EB4009EEE3C /* TaskWrapper.h */,
-				E715D38615C12EB4009EEE3C /* TaskWrapper.m */,
+				E738032015C13DCD008838F4 /* lib */,
+				E738032615C13DCD008838F4 /* src */,
+			);
+			name = SharedCode;
+			path = ../SharedCode;
+			sourceTree = "<group>";
+		};
+		E738032015C13DCD008838F4 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E738032115C13DCD008838F4 /* IOSurfaceCLI */,
+				E738032215C13DCD008838F4 /* IOSurfaceMovieController.h */,
+				E738032315C13DCD008838F4 /* IOSurfaceMovieController.m */,
+				E738032415C13DCD008838F4 /* TaskWrapper.h */,
+				E738032515C13DCD008838F4 /* TaskWrapper.m */,
 			);
 			path = lib;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
+		};
+		E738032615C13DCD008838F4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E738032715C13DCD008838F4 /* ofxIOSurfaceTest.h */,
+				E738032815C13DCD008838F4 /* ofxIOSurfaceTest.mm */,
+			);
+			path = src;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -287,7 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E715D38A15C12ECF009EEE3C /* IOSurfaceCLI in Resources */,
+				E738032915C13DCD008838F4 /* IOSurfaceCLI in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,9 +333,9 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */,
-				E715D38015C12EAA009EEE3C /* ofxIOSurfaceTest.mm in Sources */,
-				E715D38815C12EB4009EEE3C /* IOSurfaceMovieController.m in Sources */,
-				E715D38915C12EB4009EEE3C /* TaskWrapper.m in Sources */,
+				E738032A15C13DCD008838F4 /* IOSurfaceMovieController.m in Sources */,
+				E738032B15C13DCD008838F4 /* TaskWrapper.m in Sources */,
+				E738032C15C13DCD008838F4 /* ofxIOSurfaceTest.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 
 //--------------------------------------------------------------
 void testApp::setup(){
-	test.playMovie("synchronizedswim.mp4");
+	test.playMovie("../../../SharedMedia/synchronizedswim.mp4");
 }
 
 //--------------------------------------------------------------
