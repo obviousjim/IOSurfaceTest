@@ -127,7 +127,7 @@
     timing	+= [aTimer timeInterval];
     if(!openedDialog && timing > 2){
 //        NSLog(@"showing settings fool");
-        //surfaceHandler->showSettingsTest();
+        surfaceHandler->showSettingsTest();
         openedDialog = YES;
     }
     /*
