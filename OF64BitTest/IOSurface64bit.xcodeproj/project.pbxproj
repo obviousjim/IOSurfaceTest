@@ -16,7 +16,6 @@
 		E45BE9800E8CC7DD009D7055 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */; };
 		E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9770E8CC7DD009D7055 /* CoreServices.framework */; };
 		E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9790E8CC7DD009D7055 /* OpenGL.framework */; };
-		E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */; };
 		E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424410CC5A17004149E2 /* AppKit.framework */; };
@@ -25,8 +24,30 @@
 		E738030E15C13C2E008838F4 /* IOSurfaceMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = E738030715C13C2E008838F4 /* IOSurfaceMovieController.m */; };
 		E738030F15C13C2E008838F4 /* TaskWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E738030915C13C2E008838F4 /* TaskWrapper.m */; };
 		E738031015C13C2E008838F4 /* ofxIOSurfaceTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = E738030C15C13C2E008838F4 /* ofxIOSurfaceTest.mm */; };
-		E738031215C13C44008838F4 /* IOSurfaceCLI in Resources */ = {isa = PBXBuildFile; fileRef = E738030515C13C2E008838F4 /* IOSurfaceCLI */; };
 		E738031815C13C71008838F4 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E738031315C13C52008838F4 /* IOSurface.framework */; };
+		E763DF0115C4C6080037FE39 /* IOSurfaceCLI.mm in Sources */ = {isa = PBXBuildFile; fileRef = E763DEFF15C4C6060037FE39 /* IOSurfaceCLI.mm */; };
+		E763DF0B15C4F1ED0037FE39 /* ofQuickTimeGrabber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E763DF0215C4C8FB0037FE39 /* ofQuickTimeGrabber.cpp */; };
+		E763DF0E15C4F2310037FE39 /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E763DF0F15C4F2370037FE39 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE19C0414BB0CB400EDE8E9 /* GLUT.framework */; };
+		E763DF1015C4F2580037FE39 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E738031315C13C52008838F4 /* IOSurface.framework */; };
+		E763DF1115C4F2580037FE39 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424410CC5A17004149E2 /* AppKit.framework */; };
+		E763DF1215C4F2580037FE39 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424510CC5A17004149E2 /* Cocoa.framework */; };
+		E763DF1315C4F2580037FE39 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424610CC5A17004149E2 /* IOKit.framework */; };
+		E763DF1415C4F2580037FE39 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
+		E763DF1515C4F2580037FE39 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */; };
+		E763DF1615C4F2580037FE39 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */; };
+		E763DF1715C4F2580037FE39 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9740E8CC7DD009D7055 /* Carbon.framework */; };
+		E763DF1815C4F2580037FE39 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */; };
+		E763DF1915C4F2580037FE39 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */; };
+		E763DF1A15C4F2580037FE39 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9770E8CC7DD009D7055 /* CoreServices.framework */; };
+		E763DF1B15C4F2580037FE39 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9790E8CC7DD009D7055 /* OpenGL.framework */; };
+		E763DF1C15C4F2580037FE39 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */; };
+		E763DF3315C4F57F0037FE39 /* ofQtUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E763DF3015C4F5190037FE39 /* ofQtUtils.cpp */; };
+		E763DF3415C4F72D0037FE39 /* ofQuicktimeCLI in Resources */ = {isa = PBXBuildFile; fileRef = E763DEEF15C4C4BD0037FE39 /* ofQuicktimeCLI */; };
+		E763DF3815C501670037FE39 /* ofQuickTimeIOSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E763DF3515C5013F0037FE39 /* ofQuickTimeIOSurface.cpp */; };
+		E763DF3C15C5304F0037FE39 /* MovieRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = E763DF3B15C5304E0037FE39 /* MovieRenderer.m */; };
+		E763DF4015C530E30037FE39 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E763DF3F15C530E30037FE39 /* CoreVideo.framework */; };
+		E763DF4215C530E90037FE39 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E763DF4115C530E90037FE39 /* QTKit.framework */; };
 		EAE19C0514BB0CB400EDE8E9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE19C0414BB0CB400EDE8E9 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +65,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
 			remoteInfo = openFrameworks;
+		};
+		E763DF3D15C530780037FE39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4B69B4C0A3A1720003C02F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E763DEEE15C4C4BD0037FE39;
+			remoteInfo = ofQuicktimeCLI;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -75,8 +103,19 @@
 		E738030915C13C2E008838F4 /* TaskWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskWrapper.m; sourceTree = "<group>"; };
 		E738030B15C13C2E008838F4 /* ofxIOSurfaceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxIOSurfaceTest.h; sourceTree = "<group>"; };
 		E738030C15C13C2E008838F4 /* ofxIOSurfaceTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxIOSurfaceTest.mm; sourceTree = "<group>"; };
-		E738030D15C13C2E008838F4 /* synchronizedswim.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = synchronizedswim.mp4; sourceTree = "<group>"; };
 		E738031315C13C52008838F4 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOSurface.framework; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		E763DEEF15C4C4BD0037FE39 /* ofQuicktimeCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ofQuicktimeCLI; sourceTree = BUILT_PRODUCTS_DIR; };
+		E763DEFF15C4C6060037FE39 /* IOSurfaceCLI.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = IOSurfaceCLI.mm; sourceTree = "<group>"; };
+		E763DF0215C4C8FB0037FE39 /* ofQuickTimeGrabber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofQuickTimeGrabber.cpp; sourceTree = "<group>"; };
+		E763DF0315C4C8FB0037FE39 /* ofQuickTimeGrabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofQuickTimeGrabber.h; sourceTree = "<group>"; };
+		E763DF3015C4F5190037FE39 /* ofQtUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofQtUtils.cpp; sourceTree = "<group>"; };
+		E763DF3115C4F51A0037FE39 /* ofQtUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofQtUtils.h; sourceTree = "<group>"; };
+		E763DF3515C5013F0037FE39 /* ofQuickTimeIOSurface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofQuickTimeIOSurface.cpp; sourceTree = "<group>"; };
+		E763DF3715C501560037FE39 /* ofQuickTimeIOSurface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofQuickTimeIOSurface.h; sourceTree = "<group>"; };
+		E763DF3A15C5304E0037FE39 /* MovieRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieRenderer.h; sourceTree = "<group>"; };
+		E763DF3B15C5304E0037FE39 /* MovieRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieRenderer.m; sourceTree = "<group>"; };
+		E763DF3F15C530E30037FE39 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E763DF4115C530E90037FE39 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
 		EAE19C0414BB0CB400EDE8E9 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework; sourceTree = SYSTEM_DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -96,10 +135,33 @@
 				E45BE9800E8CC7DD009D7055 /* CoreFoundation.framework in Frameworks */,
 				E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */,
 				E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */,
-				E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */,
 				E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */,
 				E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */,
 				E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E763DEEC15C4C4BD0037FE39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E763DF4215C530E90037FE39 /* QTKit.framework in Frameworks */,
+				E763DF4015C530E30037FE39 /* CoreVideo.framework in Frameworks */,
+				E763DF0E15C4F2310037FE39 /* openFrameworksDebug.a in Frameworks */,
+				E763DF0F15C4F2370037FE39 /* GLUT.framework in Frameworks */,
+				E763DF1115C4F2580037FE39 /* AppKit.framework in Frameworks */,
+				E763DF1215C4F2580037FE39 /* Cocoa.framework in Frameworks */,
+				E763DF1315C4F2580037FE39 /* IOKit.framework in Frameworks */,
+				E763DF1415C4F2580037FE39 /* AGL.framework in Frameworks */,
+				E763DF1515C4F2580037FE39 /* ApplicationServices.framework in Frameworks */,
+				E763DF1615C4F2580037FE39 /* AudioToolbox.framework in Frameworks */,
+				E763DF1715C4F2580037FE39 /* Carbon.framework in Frameworks */,
+				E763DF1815C4F2580037FE39 /* CoreAudio.framework in Frameworks */,
+				E763DF1915C4F2580037FE39 /* CoreFoundation.framework in Frameworks */,
+				E763DF1A15C4F2580037FE39 /* CoreServices.framework in Frameworks */,
+				E763DF1B15C4F2580037FE39 /* OpenGL.framework in Frameworks */,
+				E763DF1015C4F2580037FE39 /* IOSurface.framework in Frameworks */,
+				E763DF1C15C4F2580037FE39 /* QuickTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +178,7 @@
 		BBAB23C913894ECA00AA2426 /* system frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E738031315C13C52008838F4 /* IOSurface.framework */,
 				E4C2424410CC5A17004149E2 /* AppKit.framework */,
 				E4C2424510CC5A17004149E2 /* Cocoa.framework */,
 				E4C2424610CC5A17004149E2 /* IOKit.framework */,
@@ -150,7 +213,6 @@
 		E45BE5980E8CC70C009D7055 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E738031315C13C52008838F4 /* IOSurface.framework */,
 				EAE19C0414BB0CB400EDE8E9 /* GLUT.framework */,
 				BBAB23CA13894EDB00AA2426 /* 3rd party frameworks */,
 				BBAB23C913894ECA00AA2426 /* system frameworks */,
@@ -161,6 +223,8 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
+				E763DF4115C530E90037FE39 /* QTKit.framework */,
+				E763DF3F15C530E30037FE39 /* CoreVideo.framework */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
 				E738030315C13C2E008838F4 /* SharedCode */,
@@ -169,6 +233,7 @@
 				BB4B014C10F69532006C3DED /* addons */,
 				E45BE5980E8CC70C009D7055 /* frameworks */,
 				E4B69B5B0A3A1756003C02F2 /* IOSurface64bitDebug.app */,
+				E763DEEF15C4C4BD0037FE39 /* ofQuicktimeCLI */,
 			);
 			sourceTree = "<group>";
 		};
@@ -196,7 +261,6 @@
 			children = (
 				E738030415C13C2E008838F4 /* lib */,
 				E738030A15C13C2E008838F4 /* src */,
-				E738030D15C13C2E008838F4 /* synchronizedswim.mp4 */,
 			);
 			name = SharedCode;
 			path = ../SharedCode;
@@ -205,6 +269,7 @@
 		E738030415C13C2E008838F4 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				E763DEFA15C4C4FE0037FE39 /* ofQuicktimeCLI */,
 				E738030515C13C2E008838F4 /* IOSurfaceCLI */,
 				E738030615C13C2E008838F4 /* IOSurfaceMovieController.h */,
 				E738030715C13C2E008838F4 /* IOSurfaceMovieController.m */,
@@ -223,6 +288,23 @@
 			path = src;
 			sourceTree = "<group>";
 		};
+		E763DEFA15C4C4FE0037FE39 /* ofQuicktimeCLI */ = {
+			isa = PBXGroup;
+			children = (
+				E763DF3A15C5304E0037FE39 /* MovieRenderer.h */,
+				E763DF3B15C5304E0037FE39 /* MovieRenderer.m */,
+				E763DF3115C4F51A0037FE39 /* ofQtUtils.h */,
+				E763DF3015C4F5190037FE39 /* ofQtUtils.cpp */,
+				E763DF0315C4C8FB0037FE39 /* ofQuickTimeGrabber.h */,
+				E763DF0215C4C8FB0037FE39 /* ofQuickTimeGrabber.cpp */,
+				E763DF3715C501560037FE39 /* ofQuickTimeIOSurface.h */,
+				E763DF3515C5013F0037FE39 /* ofQuickTimeIOSurface.cpp */,
+				E763DEFF15C4C6060037FE39 /* IOSurfaceCLI.mm */,
+			);
+			name = ofQuicktimeCLI;
+			path = ../ofQuicktimeCLI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,11 +321,28 @@
 			);
 			dependencies = (
 				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+				E763DF3E15C530780037FE39 /* PBXTargetDependency */,
 			);
 			name = IOSurface64bit;
 			productName = myOFApp;
 			productReference = E4B69B5B0A3A1756003C02F2 /* IOSurface64bitDebug.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E763DEEE15C4C4BD0037FE39 /* ofQuicktimeCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E763DEF615C4C4BE0037FE39 /* Build configuration list for PBXNativeTarget "ofQuicktimeCLI" */;
+			buildPhases = (
+				E763DEEB15C4C4BD0037FE39 /* Sources */,
+				E763DEEC15C4C4BD0037FE39 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ofQuicktimeCLI;
+			productName = ofQuicktimeCLI;
+			productReference = E763DEEF15C4C4BD0037FE39 /* ofQuicktimeCLI */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -272,6 +371,7 @@
 			projectRoot = "";
 			targets = (
 				E4B69B5A0A3A1756003C02F2 /* IOSurface64bit */,
+				E763DEEE15C4C4BD0037FE39 /* ofQuicktimeCLI */,
 			);
 		};
 /* End PBXProject section */
@@ -291,7 +391,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E738031215C13C44008838F4 /* IOSurfaceCLI in Resources */,
+				E763DF3415C4F72D0037FE39 /* ofQuicktimeCLI in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +426,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E763DEEB15C4C4BD0037FE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E763DF3815C501670037FE39 /* ofQuickTimeIOSurface.cpp in Sources */,
+				E763DF0115C4C6080037FE39 /* IOSurfaceCLI.mm in Sources */,
+				E763DF3315C4F57F0037FE39 /* ofQtUtils.cpp in Sources */,
+				E763DF0B15C4F1ED0037FE39 /* ofQuickTimeGrabber.cpp in Sources */,
+				E763DF3C15C5304F0037FE39 /* MovieRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -334,6 +446,11 @@
 			name = openFrameworks;
 			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
 		};
+		E763DF3E15C530780037FE39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E763DEEE15C4C4BD0037FE39 /* ofQuicktimeCLI */;
+			targetProxy = E763DF3D15C530780037FE39 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -341,8 +458,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
@@ -362,7 +479,8 @@
 					"-D__MACOSX_CORE__",
 					"-lpthread",
 				);
-				VALID_ARCHS = x86_64;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "x86_64 i386";
 			};
 			name = Debug;
 		};
@@ -370,8 +488,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
@@ -393,7 +511,8 @@
 					"-D__MACOSX_CORE__",
 					"-lpthread",
 				);
-				VALID_ARCHS = x86_64;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "x86_64 i386";
 			};
 			name = Release;
 		};
@@ -406,8 +525,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -497,8 +618,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks\"";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G4;
@@ -578,6 +701,72 @@
 			};
 			name = Release;
 		};
+		E763DEF715C4C4BE0037FE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(OF_CORE_LIBS_i386)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		E763DEF815C4C4BE0037FE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "$(OF_CORE_LIBS_i386)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -595,6 +784,15 @@
 			buildConfigurations = (
 				E4B69B600A3A1757003C02F2 /* Debug */,
 				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E763DEF615C4C4BE0037FE39 /* Build configuration list for PBXNativeTarget "ofQuicktimeCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E763DEF715C4C4BE0037FE39 /* Debug */,
+				E763DEF815C4C4BE0037FE39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -37,7 +37,8 @@
         
     } else {
         
-        NSString	*cliPath	= [[NSBundle mainBundle] pathForResource: @"IOSurfaceCLI" 
+        NSString	*cliPath	= [[NSBundle mainBundle] pathForResource: @"ofQuicktimeCLI" 
+//         NSString	*cliPath	= [[NSBundle mainBundle] pathForResource: @"IOSurfaceCLI" 
                                                             ofType: @""];
         NSArray		*args;
         //		if (self.moviePath && [self.moviePath length] > 1) {
@@ -49,6 +50,7 @@
         //		}
         self.moviePlayer = [[TaskWrapper alloc] initWithController: self arguments: args userInfo: nil];
         if (self.moviePlayer != nil){
+            NSLog(@"Starting process");
             [moviePlayer startProcess];
         }
         else {
@@ -127,12 +129,12 @@
 		
 		glEnable(GL_TEXTURE_RECTANGLE_ARB);
 		glBindTexture(GL_TEXTURE_RECTANGLE_ARB, _surfaceTexture);
-		CGLTexImageIOSurface2D(cgl_ctx, GL_TEXTURE_RECTANGLE_ARB, GL_RGB8,
-							   _texWidth, _texHeight,
-							   GL_YCBCR_422_APPLE, GL_UNSIGNED_SHORT_8_8_APPLE, _surface, 0);
-//		CGLTexImageIOSurface2D(cgl_ctx, GL_TEXTURE_RECTANGLE_ARB, GL_RGBA8,
+//		CGLTexImageIOSurface2D(cgl_ctx, GL_TEXTURE_RECTANGLE_ARB, GL_RGB8,
 //							   _texWidth, _texHeight,
-//							   GL_BGRA, GL_UNSIGNED_INT_8_8_8_8_REV, _surface, 0);
+//							   GL_YCBCR_422_APPLE, GL_UNSIGNED_SHORT_8_8_APPLE, _surface, 0);
+		CGLTexImageIOSurface2D(cgl_ctx, GL_TEXTURE_RECTANGLE_ARB, GL_RGBA8,
+							   _texWidth, _texHeight,
+							   GL_BGRA, GL_UNSIGNED_INT_8_8_8_8_REV, _surface, 0);
 
 		glBindTexture(GL_TEXTURE_RECTANGLE_ARB, 0);
 		glDisable(GL_TEXTURE_RECTANGLE_ARB);

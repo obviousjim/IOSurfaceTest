@@ -125,6 +125,7 @@
 	
     // launch the task asynchronously
     [task launch];    
+
 }
 
 // If the task ends, there is no more data coming through the file handle even when the notification is
@@ -193,12 +194,16 @@
     // If the length of the data is zero, then the task is basically over - there is nothing
     // more to get from the handle so we may as well shut down.
     if ([data length]) {
+        NSString* stringData  = [[[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding] autorelease];
         // Send the data on to the controller; we can't just use +stringWithUTF8String: here
         // because -[data bytes] is not necessarily a properly terminated string.
         // -initWithData:encoding: on the other hand checks -[data length]
-        [controller appendOutput: [[[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding] autorelease]
+        [controller appendOutput: stringData
 					 fromProcess: self];
+        NSLog(@"data!? %@", stringData);
+
     } else {
+        NSLog(@"quitting process");
         // We're finished here
         [self stopProcess];
     }

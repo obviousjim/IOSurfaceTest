@@ -12,7 +12,7 @@ void testApp::update(){
 
 //--------------------------------------------------------------
 void testApp::draw(){
-    ofSetColor(255);
+    ofSetColor(255);	
 
 	test.draw();
 
